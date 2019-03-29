@@ -10,6 +10,7 @@ public class Rectangle implements OthersShape {
      * Default constructor
      */
     public Rectangle() {
+		System.out.println("Creating  Object");
     }
 
 
@@ -17,14 +18,14 @@ public class Rectangle implements OthersShape {
      * 
      */
     public void letsDraw() {
-        // TODO implement here
+       System.out.println("Drawing  Object");
     }
 
     /**
      * 
      */
     public void letsDisplay() {
-        // TODO implement here
+        System.out.println("Displaying  Object");
     }
 
 }

@@ -10,6 +10,7 @@ public class Rombus implements OthersShape {
      * Default constructor
      */
     public Rombus() {
+		System.out.println("Creating Rombus Object");
     }
 
 
@@ -17,14 +18,14 @@ public class Rombus implements OthersShape {
      * 
      */
     public void letsDraw() {
-        // TODO implement here
+        System.out.println("Drawing Rombus Object");
     }
 
     /**
      * 
      */
     public void letsDisplay() {
-        // TODO implement here
+        System.out.println("Displaying Rombus Object");
     }
 
 }

@@ -10,20 +10,21 @@ public class Circle implements MyShapes {
      * Default constructor
      */
     public Circle() {
+		System.out.println("Creating Circle Object");
     }
 
     /**
      * 
      */
     public void draw() {
-        // TODO implement here
+        System.out.println("Drawing Circle Object");
     }
 
     /**
      * 
      */
     public void display() {
-        // TODO implement here
+       System.out.println("Displaying Circle Object");
     }
 
 }
