@@ -62,7 +62,7 @@
 											"top": 631,
 											"width": 278,
 											"height": 13,
-											"text": "Coffee Machine"
+											"text": "CoffeeMachine"
 										},
 										{
 											"_type": "LabelView",
@@ -501,7 +501,7 @@
 											"top": 287,
 											"width": 230,
 											"height": 13,
-											"text": "Powder Management"
+											"text": "PowderManagement"
 										},
 										{
 											"_type": "LabelView",
@@ -1152,7 +1152,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Coffee Machine",
+					"name": "CoffeeMachine",
 					"ownedElements": [
 						{
 							"_type": "UMLDependency",
@@ -1214,7 +1214,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFpxcRAgfAUx94="
 							},
-							"name": "powderManagementObject"
+							"name": "powderManagementObject",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1222,7 +1223,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFpxcRAgfAUx94="
 							},
-							"name": "mixerObject"
+							"name": "mixerObject",
+							"type": ""
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1230,7 +1232,8 @@
 							"_parent": {
 								"$ref": "AAAAAAFpxcRAgfAUx94="
 							},
-							"name": "boilerObject"
+							"name": "boilerObject",
+							"type": ""
 						}
 					],
 					"operations": [
@@ -1283,7 +1286,7 @@
 					"_parent": {
 						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
 					},
-					"name": "Powder Management",
+					"name": "PowderManagement",
 					"operations": [
 						{
 							"_type": "UMLOperation",
